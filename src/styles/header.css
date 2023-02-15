@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  max-height: 661px;
+  width: 100%;
+  background-color: #003585;
+}
+.header .logo {
+  max-width: 149px;
+}
+.input-btn {
+  max-width: 747px;
+  width: 100%;
+  border-radius: 30px;
+}
+.input-btn input {
+  width: 80%;
+  height: 50px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.input-btn input::placeholder {
+  color: #7a99c8;
+  padding-left: 80px;
+}
+.input-btn button {
+  height: 50px;
+  width: 20%;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: #003585;
+  color: white;
+}
+.signIn-shopCart {
+  display: flex;
+  justify-content: space-between;
+}

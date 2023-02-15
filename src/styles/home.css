@@ -1,0 +1,57 @@
+.home {
+  width: 80%;
+  min-width: 80vh;
+}
+.home-top {
+  padding: 50px;
+  background-color: #003585;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 80vh;
+}
+.home-top-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.home-top-left p {
+  font-size: 50px;
+  color: white;
+}
+.home-top-left button {
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.shop-btn {
+  color: #003585;
+}
+.view-btn {
+  background-color: #003585;
+  color: #a7f65c;
+}
+.home-mid-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.home-mid-top h3 {
+  color: #003585;
+}
+.home-mid-top .btns {
+  display: flex;
+  gap: 10px;
+}
+.home-mid-top .btns button {
+  border-radius: 30px;
+  background-color: white;
+  border: 1px solid #003585;
+  color: #003585;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table img {
+  width: 20%;
+}
